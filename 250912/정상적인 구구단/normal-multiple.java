@@ -8,10 +8,11 @@ public class Main {
 
         for(int i = 1; i<=n; i++){
             for(int j = 1; j<=n; j++){
-                System.out.printf("%d + %d = %d",i,j,i*j);
+                System.out.printf("%d * %d = %d",i,j,i*j);
                 // 마지막 열이 아니면 쉼표 출력
                 if(j != n) {
                     System.out.print(", ");
+                }
             }
             System.out.println();
         }
