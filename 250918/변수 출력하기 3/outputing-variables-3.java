@@ -6,5 +6,5 @@ public class Main {
     int b = 2;
     char c = 'C';
 
-    System.out.printf("%d->%d->%s",a,b,c);
+    System.out.printf(a+"->"+b+"->"+c);
 }
