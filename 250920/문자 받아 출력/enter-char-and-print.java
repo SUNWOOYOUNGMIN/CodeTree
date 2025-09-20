@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
         // Please write your code here.
         Scanner sc = new Scanner(System.in);
-        char a = 'c';
+        char a = sc.next().charAt(0);
         System.out.print(a);
     }
 }
