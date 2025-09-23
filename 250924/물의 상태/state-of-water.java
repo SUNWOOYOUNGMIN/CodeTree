@@ -9,7 +9,8 @@ public class Main {
             System.out.print("ice");
         } else if (tp>=100){
             System.out.print("vapor");
-        } 
+        } else{
         System.out.print("water");
+        }
     }
 }
