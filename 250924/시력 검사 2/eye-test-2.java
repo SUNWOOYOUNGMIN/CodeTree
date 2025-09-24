@@ -11,9 +11,9 @@ public class Main {
 
         double avg = Double.parseDouble(st.nextToken());
 
-        if(avg>1.0){
+        if(avg>=1.0){
             System.out.print("High");
-        } else if (avg>0.5){
+        } else if (0.5<=avg){
             System.out.print("Middle");
         } else {
             System.out.print("Low");
