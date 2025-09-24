@@ -5,15 +5,13 @@ public class Main {
         // Please write your code here.
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
-        int cnt = 0;
 
         if(a%2==0){
             a /= 2;
-            cnt++;
-        } else {
+        } 
+        if(a%2 == 1) {
             a = (a+1)/2;
-            cnt++;
         }
-        System.out.print(cnt);
+        System.out.print(a);
     }
 }
