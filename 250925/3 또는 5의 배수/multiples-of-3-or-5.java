@@ -7,14 +7,14 @@ public class Main {
         int a = sc.nextInt();
 
         if(a%3==0){
-            System.out.print("YES ");
+            System.out.println("YES ");
         } else {
-            System.out.print("NO ");
+            System.out.println("NO ");
         }
         if(a%5==0){
-            System.out.print("YES ");
+            System.out.println("YES ");
         } else {
-            System.out.print("NO ");
+            System.out.println("NO ");
         }
     }
 }
