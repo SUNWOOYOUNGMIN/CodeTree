@@ -9,11 +9,9 @@ public class Main {
         int b_math = sc.nextInt();
         int b_eng = sc.nextInt();
 
-        if(a_math>b_math){
-            if(a_eng>b_eng){
-                System.out.print("1");
-            }
-        }else {
+        if(a_math>b_math && a_eng>b_eng){
+            System.out.print("1");
+        } else {
             System.out.print("0");
         }
     }
