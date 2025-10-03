@@ -10,7 +10,7 @@ public class Main {
         if(a%2==0){
             a++;
         } 
-        for(int i = 0; i<=b; i+=2){
+        for(int i = 0; i<=b-a; i+=2){
             System.out.print((a+i)+" ");
         }
         
